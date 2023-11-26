@@ -1,0 +1,114 @@
+.listerCards {
+  width: calc(100% + 10%);
+  height: 300px;
+  position: relative;
+  height: 340px;
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+.listerCards::-webkit-scrollbar {
+  width: 0;
+}
+
+
+
+
+.lister {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  user-select: none;
+  cursor: pointer;
+  width: 247px;
+  height: 247px;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  z-index: -30;
+  margin-right: 40px;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+}
+
+.cards:active {
+  transform: scale(1.05);
+}
+
+
+.cards::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -100;
+  opacity: 0.8;
+}
+
+.top {
+  position: relative;
+  z-index: -40;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.play {
+  position: relative;
+  z-index: 139;
+  border-radius: 25px;
+  background: #3DBDA7;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.shop {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #FFF;
+}
+
+
+.content h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content p {
+  color: #E3E3E3;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

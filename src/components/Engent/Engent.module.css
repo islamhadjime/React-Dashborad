@@ -1,0 +1,114 @@
+.engent {
+  margin-top: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h2 {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header p {
+  color: #5C5C5C;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.content {
+  width: 100%;
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 40px;
+  padding: 20px;
+  background: radial-gradient(3966.5% 187.31% at 5.54% 19.37%, #3DBDA7 23.33%, #067D71 52.13%);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  display: flex;
+  width: 101px;
+  height: 101px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1D1E22;
+  border-radius: 16px;
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.text h3 {
+  color: #F4F5F6;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+
+.text a {
+  margin-top: 9px;
+  padding: 8px 26px 7px 26px;
+  background-color: #00453F;
+  border-radius: 12px;
+  color: #E3E3E3;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.detail h3 {
+  color: #242424;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detail p {
+  color: #003933;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.progent {
+  display: flex;
+  margin-left: 20px;
+}
+
+.svg {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #00453F;
+  box-shadow: 0px 2px 22px 0px rgba(46, 188, 164, 0.73);
+}
+
+.svg:last-child {
+  margin-left: 9px;
+}
